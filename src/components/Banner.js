@@ -20,7 +20,7 @@ function Banner() {
                 </h1>
                 
                 <h2 data-aos="zoom-in" className="font-bold max-w-2xl mx-auto w-full text-2xl  text-black-5 text-center text-bold py-8">
-                Solid Fort is a company that was founded by a group of friends who seek to bridge the gaps in the  &amp; real-estate and construction industry.
+                Solid Fort is a company that was founded by a group of friends who seek to bridge the gaps in the  real-estate and construction industry.
                 </h2>
                 <div className="flex items-center justify-center mt-4">
                     <a href="/services" className="uppercase py-2 px-4 bg-red-800 border-2 border-transparent text-white text-md mr-4 hover:bg-gray-900">
