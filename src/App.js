@@ -19,17 +19,17 @@ function App() {
           <Route exact path="/"  element={<Home/>}/>
           <Route exact path="/about" element={<About/>}/>
           <Route exact path="/contact" element={<Contact/>}/>
-          <Route exact path="/product" element={<Products/>}/>
+          <Route exact path="/products" element={<Products/>}/>
           <Route exact path="/services" element={<Services/>}/>
           <Route exact path="/projects" element={<Projects/>}/>
           
        </Routes>
        <Footer/>
     </Router>
-      <CookieConsent debug={true}
+    <CookieConsent debug={true}
       location="bottom"
       className="bg-red-800 text-white "
-      >This site Uses Cookies</CookieConsent>
+      >We may use cookies or any other tracking technologies when you visit our website, including any other media form, mobile website, or mobile application related or connected to help customize the Site and improve your experience.</CookieConsent>
     </div>
   );
 }

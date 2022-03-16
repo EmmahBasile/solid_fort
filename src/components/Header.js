@@ -22,17 +22,17 @@ function Header() {
           <MailIcon className="text-red-800"/>services@unstruction.com
           <PhoneEnabledIcon className="text-red-800 "/>Tel:+237 65776655444
           <FacebookIcon className="text-red-800"/>Facerbook
-          <InstagramIcon className="text-red-800"/>insta
+          <InstagramIcon className="text-red-800"/>instagram
           <LinkedInIcon className="text-red-800"/>LinkedIn
       </div>
-      <header className=" bg gray bg-gray-100 sticky top-0 h-50 sm:h-32 flex items-center z-30 w-full sm">
+      <header className=" bg gray bg-white sticky top-0 h-50 sm:h-32 flex items-center shadow-md z-30 w-full sm">
         <div className="container mx-auto px-6 flex items-center justify-between">
           <div className=" ml-10 uppercase  dark:text-white  font-black text-3xl">
             <a href='/'><img src={logo} height={100} width={100} alt='' /></a>
           </div>
 
           <div className="flex items-center lg:ml-40 sm:ml-30 mr-1 w-full ">
-            <nav className={`${active ? '' : 'hidden'}   font-sen text-red-900 bg-gray-100 uppercase text-lg lg:flex items-ce w-full z-20 `}>
+            <nav className={`${active ? '' : 'hidden'}   font-sen text-red-900 bg-white uppercase text-lg lg:flex items-ce w-full z-20 `}>
               <a href="/" className="py-2 px-6 flex  text-red-800 font-bold hover:text-white hover:bg-red-800 hover:rounded-md">
                 Home
               </a>
@@ -42,7 +42,7 @@ function Header() {
               <a href="/services" className="py-2 px-6 flex text-red-800 font-bold hover:text-white hover:bg-red-800 hover:rounded-md">
                 Our Services
               </a>
-              <a href="/product" className="py-2 px-6 flex text-red-800 font-bold hover:text-white hover:bg-red-800 hover:rounded-md">
+              <a href="/products" className="py-2 px-6 flex text-red-800 font-bold hover:text-white hover:bg-red-800 hover:rounded-md">
                 Product
               </a>
               <a href="/contact" className="py-2 px-6 flex text-red-800 font-bold hover:text-white hover:bg-red-800 hover:rounded-md">
