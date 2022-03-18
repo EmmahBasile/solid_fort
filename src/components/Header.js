@@ -6,6 +6,7 @@ import InstagramIcon from '@material-ui/icons/Instagram';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import MailIcon from '@material-ui/icons/Mail';
 import PhoneEnabledIcon from '@material-ui/icons/PhoneEnabled';
+import AccountCircleIcon from '@material-ui/icons/AccountCircle'
 //import {Transition} from '@headlessui/react
 function Header() {
   const [active, setActive] = useState(false);
@@ -17,17 +18,23 @@ function Header() {
     <>
 
 
-      <div className=' mt-3 flex lg:flex-row justify-evenly gap-2 md:flex-col sm:flex-col flex-col-reverse sm:items-center  sm:mr-2 sm:ml-2'>
-       
-          <MailIcon className="text-red-800"/>services@unstruction.com
-          <PhoneEnabledIcon className="text-red-800 "/>Tel:+237 65776655444
-          <FacebookIcon className="text-red-800"/>Facerbook
-          <InstagramIcon className="text-red-800"/>instagram
-          <LinkedInIcon className="text-red-800"/>LinkedIn
+      <div className=' flex mt-3 h-18 bg-red-800'>
+          <div className='flex-1 mt-2 mb-2 ml-5 '>
+          <MailIcon className="text-white mr-1"/><strong className='text-white mr-1'>services@solid-fort.com</strong>
+          <PhoneEnabledIcon className="text-white ml-2"/><strong className='text-white mr-1'>+237 65776655444</strong>
+          </div>
+      
+          <div className='ml-auto  mt-2 mb-2 mr-5 sm:flex-col'>
+          <FacebookIcon className="text-white ml-1 mr-1"/><strong className='text-white'></strong>
+          <InstagramIcon className="text-white ml-1 mr-1"/><strong className='text-white'></strong>
+          <LinkedInIcon className="text-white ml-1 mr-1"/><strong className='text-white'></strong>
+          <AccountCircleIcon className='text-white ml-1 mr-1'/>
+          </div>
+          
       </div>
       <header className=" bg gray bg-white sticky top-0 h-50 sm:h-32 flex items-center shadow-md z-30 w-full sm">
         <div className="container mx-auto px-6 flex items-center justify-between">
-          <div className=" ml-10 uppercase  dark:text-white  font-black text-3xl">
+          <div className=" ml-10 uppercase  text-white  font-black text-3xl">
             <a href='/'><img src={logo} height={100} width={100} alt='' /></a>
           </div>
 
