@@ -25,10 +25,10 @@ function Header() {
           </div>
       
           <div className='ml-auto  mt-2 mb-2 mr-5 sm:flex-col'>
-          <FacebookIcon className="text-white ml-1 mr-1"/><strong className='text-white'></strong>
-          <InstagramIcon className="text-white ml-1 mr-1"/><strong className='text-white'></strong>
-          <LinkedInIcon className="text-white ml-1 mr-1"/><strong className='text-white'></strong>
-          <AccountCircleIcon className='text-white ml-1 mr-1'/>
+          <a href='https://www.facebook.com/search/top/?q=solid%20fort'><FacebookIcon className="text-white ml-1 mr-1"/></a>
+          <a href='https://solid-fort.vercel.app/'><InstagramIcon className="text-white ml-1 mr-1"/></a>
+          <a href='https://solid-fort.vercel.app/'><LinkedInIcon className="text-white ml-1 mr-1"/></a>
+          <a href='https://solid-fort.vercel.app/'><AccountCircleIcon className='text-white ml-1 mr-1'/></a>
           </div>
           
       </div>
