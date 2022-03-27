@@ -21,7 +21,7 @@ function Header() {
       <div className=' flex mt-3 h-18 bg-red-800'>
           <div className='flex-1 mt-2 mb-2 ml-5 '>
           <MailIcon className="text-white mr-1"/><strong className='text-white mr-1'>services@solid-fort.com</strong>
-          <PhoneEnabledIcon className="text-white ml-2"/><strong className='text-white mr-1'>+237 65776655444</strong>
+          <a href="https://github.com"><PhoneEnabledIcon className="text-white ml-2"/><strong className='text-white mr-1'>+237 65776655444</strong></a>
           </div>
       
           <div className='ml-auto  mt-2 mb-2 mr-5 sm:flex-col'>
