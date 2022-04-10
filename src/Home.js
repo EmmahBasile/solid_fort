@@ -25,6 +25,7 @@ function Home() {
         <div className="w-full md:w-1/2">
           <h4 className="text-3xl text-red-800 font-bold mb-3">Achitecture</h4>
           <p className="text-gray-600 mb-8">Our Smart Health Monitoring Wristwatch is able to capture you vitals while you exercise. You can create different category of exercises and can track your vitals on the go.</p>
+          <a href='/achitecture'><strong className='text-red-800'>See More</strong></a>
         </div>
         <div className="w-full md:w-1/2">
           <img src={pics1} height={600} width={600} alt=''/>
@@ -38,13 +39,15 @@ function Home() {
         <div className="w-full md:w-1/2 pl-10">
         <h4 className="text-3xl text-red-800 font-bold mb-3">Real Estate</h4>
           <p className="text-gray-600 mb-8">Our Smart Health Monitoring Wristwatch can generate a comprehensive report on your vitals depending on your settings either daily, weekly, monthly, quarterly or yearly.</p>
+          <a href='/realestate'><strong className='text-red-800'>See More</strong></a>
         </div>
       </div>
 
       <div data-aos="fade-up" className="flex items-center flex-wrap mb-20">
         <div className="w-full md:w-1/2">
-          <h4 className="text-3xl text-red-800 font-bold mb-3">Engineering and Construction</h4>
+          <h4 className="text-3xl text-red-800 font-bold mb-3">Engineering & Construction</h4>
           <p className="text-gray-600 mb-8">Our Smart Health Monitoring Wristwatch allows you to sync data across all your mobile devices whether iOS, Android or Windows OS and also to your laptop whether MacOS, GNU/Linux or Windows OS.</p>
+          <a href='/engineeringandconstruction'><strong className='text-red-800'>See More</strong></a>
         </div>
         <div className="w-full md:w-1/2">
           <img src={image0} height={600} width={600} alt='' />
@@ -57,6 +60,7 @@ function Home() {
         <div className="w-full md:w-1/2">
         <h4 className="text-3xl text-red-800 font-bold mb-3">General Supplies</h4>
           <p className="text-gray-600 mb-8">Our Smart Health Monitoring Wristwatch allows you to sync data across all your mobile devices whether iOS, Android or Windows OS and also to your laptop whether MacOS, GNU/Linux or Windows OS.</p>
+          <a href='/generalsupplies'><strong className='text-red-800'>See More</strong></a> 
         </div>
       </div>
     </section>

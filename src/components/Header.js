@@ -18,17 +18,18 @@ function Header() {
     <>
 
 
-      <div className=' flex mt-3 h-18 bg-red-800'>
+      <div className=' flex mt-1 h-18 bg-red-800'>
           <div className='flex-1 mt-2 mb-2 ml-5 '>
           <MailIcon className="text-white mr-1"/><strong className='text-white mr-1'>services@solid-fort.com</strong>
-          <a href="https://github.com"><PhoneEnabledIcon className="text-white ml-2"/><strong className='text-white mr-1'>+237 65776655444</strong></a>
+          <PhoneEnabledIcon className="text-white ml-2"/><strong className='text-white mr-1'>+237 65776655444</strong>
           </div>
       
           <div className='ml-auto  mt-2 mb-2 mr-5 sm:flex-col'>
           <a href='https://www.facebook.com/search/top/?q=solid%20fort'><FacebookIcon className="text-white ml-1 mr-1"/></a>
           <a href='https://solid-fort.vercel.app/'><InstagramIcon className="text-white ml-1 mr-1"/></a>
           <a href='https://solid-fort.vercel.app/'><LinkedInIcon className="text-white ml-1 mr-1"/></a>
-          <a href='https://solid-fort.vercel.app/'><AccountCircleIcon className='text-white ml-1 mr-1'/></a>
+          <a href='/login'><strong className="text-white">LOGIN</strong><AccountCircleIcon className='text-white ml-1 mr-1'/></a>
+          
           </div>
           
       </div>

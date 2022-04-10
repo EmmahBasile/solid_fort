@@ -8,8 +8,13 @@ import Products from './Products';
 import Services from './Services';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import Login from './components/Login';
 import Projects from './Projects';
 import CookieConsent from 'react-cookie-consent';
+import Achitecture from './Achitecture';
+import EngineeringAndConstruction from './EngineeringAndConstruction';
+import GeneralSupplies from './GeneralSupplies';
+import RealEstate from './RealEstate';
 function App() {
   return (
     <div className="App">
@@ -22,6 +27,11 @@ function App() {
           <Route exact path="/products" element={<Products/>}/>
           <Route exact path="/services" element={<Services/>}/>
           <Route exact path="/projects" element={<Projects/>}/>
+          <Route exact path="/achitecture" element={<Achitecture/>}/>
+          <Route exact path="/engineeringandconstruction" element={<EngineeringAndConstruction/>}/>
+          <Route exact path="generalsupplies" element={<GeneralSupplies/>}/>
+          <Route exact path="realestate" element={<RealEstate/>}/>
+          <Route exact path="login" element={<Login/>}/>
           
        </Routes>
        <Footer/>
