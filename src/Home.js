@@ -55,7 +55,13 @@ function Home() {
       <div data-aos="fade-up" className="flex items-center flex-wrap mb-20">
         <div className="w-full md:w-1/2">
           <h4 className="text-3xl text-red-800 font-bold mb-3">Engineering & Construction</h4>
-          <p className="text-gray-600 mb-8">Our Smart Health Monitoring Wristwatch allows you to sync data across all your mobile devices whether iOS, Android or Windows OS and also to your laptop whether MacOS, GNU/Linux or Windows OS.</p>
+          <p className="text-gray-600 mb-8">Solid Fort Engineering and Construction sector include the following services</p>
+         <ul class="list-disc justify-start">
+           <li>	Architectural designs</li>
+           <li>	Structural analysis</li>
+           <li>	Construction works</li>
+           <li>	Rehabilitation works</li>
+          </ul>
           <a href='/engineeringandconstruction'><strong className='text-red-800'>See More</strong></a>
         </div>
         <div className="w-full md:w-1/2">
@@ -73,28 +79,7 @@ function Home() {
         </div>
       </div>
     </section>
-                 <section class="py-20 bg-red-800 my-20">
-                     
-    <div data-aos="fade-up" className="grid grid-cols-1 sm:grid-cols-2  gap-10   items-center max-w-6xl mx-auto">
-      <div className="px-4 md:mr-6">
-        <h3 className="text-4xl pr-6 sm:leading-snug tracking-tight font-bold text-white">
-          With our diverse range of lenders, we fight hard to get you the best deal.
-        </h3>
-        <p className="mt-4 text-white text-xl font-medium">
-          With our diverse range of lenders, we fight hard to get you the best deal.
-        </p>
-      </div>
-      <div>
-        <div className="absolute bg-red-800 transform -translate-x-10  h-64">
-        </div>
-        <div className="transform md:rounded-md  bg-white rotate-6 scale-100 translate-x-10 md:shadow-2xl -ml-4 -mt-44 p-12  space-y-2">
-          <div className="px-4 sm:px-0 grid grid-cols-5 sm:grid-cols-4 gap-2 sm:gap-8 max-w-5xl mx-auto">
-                        
-                      </div>
-        </div>
-      </div>
-    </div>
-  </section>
+        
             </div>
             <div data-aos="fade-up" className='pt-20 bg-gray-100'>
                 <div className="mb-16 text-center">
