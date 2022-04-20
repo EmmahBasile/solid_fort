@@ -13,14 +13,23 @@ function Home() {
     Aos.init({ duration: 2000})
   }, []);
     return (
-        <div>
+        <>
             
              <Banner/>
              <div className='lg:grid-cols xl:grid-cols-4 sm:grid-cols-1 justify-center items-center text-center  '>
                  <section className="container mx-auto px-6 p-10">
-      <h2 className="text-4xl font-bold text-center text-red-800 mb-8">
-        Features
-      </h2>
+        <div data-aos="fade-right" className="flex items-center flex-wrap mb-20">
+        <div className="w-full md:w-1/2">
+          <h4 className="text-3xl text-red-800 font-medium mb-3">About Us </h4>
+          <p className="text-black mb-8 ">Solid Fort is a company that was founded by a group of friends who seek to bridge the gaps in the real-estate and construction industry. Solid Fort as a company, brings all the resources needed for you to own, rent or sell a property at a very affordable rate. Solid Fort also aims at improving providing in its service as client needs are growing. </p>
+          <p className="text-black mb-8 ">Our <stron className="font-bold">Mission</stron> is to provide the best services through experience,Relationships built on integrity,Success built on performance and Fueled by a commitment of continual improvement, both personally and professionally.
+</p>       <p className="text-black mb-8">Our <stron className="font-bold">Vission</stron> is to be sought out as the recognized and trusted firm in the respective domain of service; to have the best output in development and in service; and to drive continues improvement internally and externally for the growth of the community and the industry. </p>
+          <a href='/about'><strong className='text-red-800'>See More</strong></a>
+        </div>
+        <div data-aos="fade-left" className="w-full md:w-1/2">
+          <img src={pics1} height={600} width={600} alt=''/>
+        </div>
+      </div>
       <div data-aos="fade-up" className="flex items-center flex-wrap mb-20">
         <div className="w-full md:w-1/2">
           <h4 className="text-3xl text-red-800 font-bold mb-3">Achitecture</h4>
@@ -78,7 +87,7 @@ function Home() {
       <div>
         <div className="absolute bg-red-800 transform -translate-x-10  h-64">
         </div>
-        <div className="transform md:rounded-md  bg-white rotate-3 scale-110 translate-x-10 md:shadow-2xl -ml-4 -mt-44 p-12  space-y-2">
+        <div className="transform md:rounded-md  bg-white rotate-6 scale-100 translate-x-10 md:shadow-2xl -ml-4 -mt-44 p-12  space-y-2">
           <div className="px-4 sm:px-0 grid grid-cols-5 sm:grid-cols-4 gap-2 sm:gap-8 max-w-5xl mx-auto">
                         
                       </div>
@@ -148,7 +157,7 @@ function Home() {
             <Team/>
             
       
-        </div>
+        </>
     )
 }
 
