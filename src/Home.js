@@ -2,8 +2,8 @@ import React, { useEffect } from 'react'
 import Team from './components/Team';
 import Banner from './components/Banner';
 import image1 from './image/image1.png';
-import image0 from './image/image0.png';
-import pics1 from './image/pics1.png';
+import image0 from './image/image0.jpg';
+import pics1 from './image/pics1.jpg';
 import StoreIcon from '@material-ui/icons/Store';
 import BusinessIcon from '@material-ui/icons/Business';
 import Aos from "aos";
@@ -30,7 +30,7 @@ function Home() {
           <img src={pics1} height={600} width={600} alt=''/>
         </div>
       </div>
-      <div data-aos="fade-up" className="flex items-center flex-wrap mb-20">
+      <div data-aos="fade-right" className="flex items-center flex-wrap mb-20">
         <div className="w-full md:w-1/2">
           <h4 className="text-3xl text-red-800 font-bold mb-3">Achitecture</h4>
           <p className="text-gray-600 mb-8">Our Smart Health Monitoring Wristwatch is able to capture you vitals while you exercise. You can create different category of exercises and can track your vitals on the go.</p>
@@ -41,7 +41,7 @@ function Home() {
         </div>
       </div>
 
-      <div data-aos="fade-up" className="flex items-center flex-wrap mb-20">
+      <div data-aos="fade-right" className="flex items-center flex-wrap mb-20">
         <div className="w-full md:w-1/2">
           <img src={image1} height={600} width={600} alt='' />
         </div>
@@ -52,7 +52,7 @@ function Home() {
         </div>
       </div>
 
-      <div data-aos="fade-up" className="flex items-center flex-wrap mb-20">
+      <div data-aos="fade-right" className="flex items-center flex-wrap mb-20">
         <div className="w-full md:w-1/2">
           <h4 className="text-3xl text-red-800 font-bold mb-3">Engineering & Construction</h4>
           <p className="text-gray-600 mb-8">Solid Fort Engineering and Construction sector include the following services</p>
@@ -68,7 +68,7 @@ function Home() {
           <img src={image0} height={600} width={600} alt='' />
         </div>
       </div>
-      <div data-aos="fade-up" className="flex items-center flex-wrap mb-20">
+      <div data-aos="fade-right" className="flex items-center flex-wrap mb-20">
         <div className="w-full md:w-1/2">
         <img src={image0} height={600} width={600} alt='' /> 
         </div>
@@ -81,7 +81,7 @@ function Home() {
     </section>
         
             </div>
-            <div data-aos="fade-up" className='pt-20 bg-gray-100'>
+            <div data-aos="fade-right" className='pt-20 bg-gray-100'>
                 <div className="mb-16 text-center">
         <h2 className="text-base text-indigo-600 font-semibold tracking-wide uppercase">
             Features

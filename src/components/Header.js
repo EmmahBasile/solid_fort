@@ -33,38 +33,38 @@ function Header() {
           </div>
           
       </div>
-      <header className=" bg gray bg-white sticky top-0 h-50 sm:h-32 flex items-center shadow-md z-30 w-full sm">
-        <div className="container mx-auto px-6 flex items-center justify-between">
+      <header className=" bg gray bg-white sticky top-0 h-20 sm:h-32 flex items-center shadow-md z-30 w-full ">
+        <div className="container mx-auto px-4 flex items-center justify-between">
           <div className=" ml-10 uppercase  text-white  font-black text-3xl">
             <a href='/'><img src={logo} height={100} width={100} alt='' /></a>
           </div>
 
           <div className="flex items-center lg:ml-40 sm:ml-30 mr-1 w-full ">
-            <nav className={`${active ? '' : 'hidden'}   font-sen text-red-900 bg-white uppercase text-lg lg:flex items-ce w-full z-20 `}>
-              <a href="/" className="py-2 px-6 flex  text-red-800 font-bold hover:text-white hover:bg-red-800 hover:rounded-md">
+            <nav className={`${active ? '' : 'hidden'}  ml-40 font-sen text-red-900 bg-white uppercase text-lg lg:flex items-right w-full z-20 `}>
+              <a href="/" className="py-2 px-10 flex  text-red-800 font-medium hover:text-white hover:bg-red-800 hover:rounded-md">
                 Home
               </a>
-              <a href="/projects" className="py-2 px-6 flex text-red-800 font-bold hover:text-white hover:bg-red-800 hover:rounded-md">
+              <a href="/projects" className="py-2 px-4 flex text-red-800 font-medium hover:text-white hover:bg-red-800 hover:rounded-md">
                 Projects
               </a>
-              <a href="/services" className="py-2 px-6 flex text-red-800 font-bold hover:text-white hover:bg-red-800 hover:rounded-md">
+              <a href="/services" className="py-2 px-4 flex text-red-800 font-medium hover:text-white hover:bg-red-800 hover:rounded-md">
                 Our Services
               </a>
-              <a href="/products" className="py-2 px-6 flex text-red-800 font-bold hover:text-white hover:bg-red-800 hover:rounded-md">
+              <a href="/products" className="py-2 px-4 flex text-red-800 font-medium hover:text-white hover:bg-red-800 hover:rounded-md">
                 Product
               </a>
-              <a href="/contact" className="py-2 px-6 flex text-red-800 font-bold hover:text-white hover:bg-red-800 hover:rounded-md">
+              <a href="/contact" className="py-2 px-4 flex text-red-800 font-medium hover:text-white hover:bg-red-800 hover:rounded-md">
                 Contact
               </a>
-              <a href="/about" className="py-2 px-6 flex text-red-800 font-bold hover:text-white hover:bg-red-800 hover:rounded-md">
+              <a href="/about" className="py-2 px-4 flex text-red-800 font-medium hover:text-white hover:bg-red-800 hover:rounded-md">
                 About Us
               </a>
-              <a href="/about" className="py-2 px-6 flex text-red-800 font-bold hover:text-white hover:bg-red-800 hover:rounded-md">
+              <a href="/about" className="py-2 px-0 flex text-red-800 font-medium hover:text-white hover:bg-red-800 hover:rounded-md">
               <ShoppingCartRoundedIcon/>
               </a>
             </nav>
             <button
-              className=' inline-flex p-3  rounded lg:hidden text-red-800 font-bold  ml-auto hover:text-black outline-none '
+              className=' inline-flex p-3  rounded lg:hidden text-red-800 font-medium  ml-auto hover:text-black outline-none '
               onClick={handleClick}
             >
               <svg

@@ -27,9 +27,9 @@ function Projects() {
         </div>
     </div>
 </main>
-<div class="h-screen flex items-center justify-center bg-white">
+<div class="h-screen flex items-center justify-center bg-white ">
 
-  <div class="grid grid-cols-12 px-18 gap-5">
+  <div class="grid grid-cols-12 px-18 gap-5 lg:grid-cols-3 xl:grid-cols-4 sm:grid-cols-2 flex-auto">
 
     <div class="col-span-12">
         <p class="text-red-800 text-3xl font-semibold">Our Latest Projects</p>

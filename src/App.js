@@ -38,7 +38,7 @@ function App() {
     </Router>
     <CookieConsent debug={true}
       location="bottom"
-      className="bg-red-800 text-white "
+      background="white"
       >We may use cookies or any other tracking technologies when you visit our website, including any other media form, mobile website, or mobile application related or connected to help customize the Site and improve your experience.</CookieConsent>
     </div>
   );
